@@ -489,10 +489,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"PlayerREF","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CAM","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Score","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"PlayerREF","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CAM","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Score","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Transform","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"EmptyREF","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Ta
+      variable","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 704262322}
     - {fileID: 519420028}
+    - {fileID: 383177440}
+    - {fileID: 0}
 --- !u!4 &816862920
 Transform:
   m_ObjectHideFlags: 0
