@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: S_EnemyRenderer
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":100.8001,"y":-96.25003},"zoom":0.4999999,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-210.0,"y":-56.0},"guid":"5433aadd-7c5e-4d28-9938-cfc08f1da9ca","$version":"A","$type":"Bolt.Update","$id":"9"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-18.0,"y":-58.0},"guid":"2ad809fd-927e-4ca2-8ac0-d0e9c9d024a8","$version":"A","$type":"Bolt.SuperUnit","$id":"11"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"Update","guid":"f4a2b1b3-d8a7-403b-8ab9-6e54459c6e09","$type":"Bolt.ControlConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: acdeb8dbcbda8994b869ea1b1ca2be6d, type: 2}
