@@ -16,8 +16,8 @@ GameObject:
   - component: {fileID: -350967928720560951}
   - component: {fileID: -3969632395301191811}
   m_Layer: 0
-  m_Name: RedSpawner
-  m_TagString: Spawner
+  m_Name: SpawnerRed
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 4866716999078244797}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.15}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"TargetOne","value":null,"$version":"A"},{"name":"TargetTwo","value":null,"$version":"A"},{"name":"ShapeDivision","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"SpawnerSpeed","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"TargetOne","value":null,"$version":"A"},{"name":"TargetTwo","value":null,"$version":"A"},{"name":"ShapeDivision","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"HP","value":{"$content":2,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &-350967928720560951
 MonoBehaviour:
