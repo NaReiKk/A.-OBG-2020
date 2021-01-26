@@ -72,7 +72,7 @@ GameObject:
   - component: {fileID: -1406996457881544690}
   - component: {fileID: -248490750609694315}
   m_Layer: 0
-  m_Name: EnemyRed 1
+  m_Name: EnemyOrange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -127,7 +127,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 4e024d41f1e6d8e41bd462b14b7be905, type: 2}
+    - {fileID: 11400000, guid: 39141e5369ebb4f4eaac0dc5c847011b, type: 2}
 --- !u!1 &4260509442327621385
 GameObject:
   m_ObjectHideFlags: 0
