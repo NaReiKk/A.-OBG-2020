@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"TargetOne","value":null,"$version":"A"},{"name":"TargetTwo","value":null,"$version":"A"},{"name":"ShapeDivision","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"HP","value":{"$content":2,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"TargetOne","value":null,"$version":"A"},{"name":"TargetTwo","value":null,"$version":"A"},{"name":"ShapeDivision","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"HP","value":{"$content":1,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &-350967928720560951
 MonoBehaviour:

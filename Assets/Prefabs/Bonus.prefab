@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"ShapeDivision","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"TargetOne","value":null,"$version":"A"},{"name":"TargetTwo","value":null,"$version":"A"},{"name":"BonusSpeed","value":{"$content":3.5,"$type":"System.Single"},"$version":"A"},{"name":"CounterREF","value":null,"$version":"A"},{"name":"HP","value":{"$content":2,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"ShapeDivision","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"TargetOne","value":null,"$version":"A"},{"name":"TargetTwo","value":null,"$version":"A"},{"name":"BonusSpeed","value":{"$content":3.5,"$type":"System.Single"},"$version":"A"},{"name":"CounterREF","value":null,"$version":"A"},{"name":"HP","value":{"$content":1,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &-5926926784744901503
 MonoBehaviour:
