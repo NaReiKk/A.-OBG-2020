@@ -6,24 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/0. OLD/TEMP Scenes/Fondu.unity
-    guid: 84ff52ce716bcb645a262eacc4f1fc24
+    path: Assets/Scenes/Level 1.unity
+    guid: 271062750076fd84caaa0ce1c4a5fa04
   - enabled: 1
-    path: Assets/0. OLD/TEMP Scenes/Main Menu.unity
-    guid: b1a96114c2b2de743af376f928928a99
+    path: Assets/Scenes/Level 2.unity
+    guid: 1a2f219ed662815448ff97a35dcddc82
   - enabled: 1
-    path: Assets/0. OLD/TEMP Scenes/Level1.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/Level 3.unity
+    guid: a38b85dbd60f6504cb0aae82f1ae3c71
   - enabled: 1
-    path: Assets/0. OLD/TEMP Scenes/Level2.unity
-    guid: 72261305a0d60bd41b4a7ecd389cbff3
-  - enabled: 1
-    path: Assets/0. OLD/TEMP Scenes/Level3.unity
-    guid: 96ca2eac446b98e4781ed35122d1911b
-  - enabled: 1
-    path: Assets/0. OLD/TEMP Scenes/Level4.unity
-    guid: d80359c140db02f499414d4c201c0e72
-  - enabled: 1
-    path: Assets/0. OLD/TEMP Scenes/InfoPanel.unity
-    guid: 955756ff958282348b157241174c90bb
+    path: Assets/Scenes/Level Loop.unity
+    guid: ce1c37e6a67afc549893a85826ffa669
   m_configObjects: {}

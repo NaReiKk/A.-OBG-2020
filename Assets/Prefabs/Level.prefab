@@ -159,6 +159,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3218332644916657437}
+  - component: {fileID: 914633341}
   m_Layer: 0
   m_Name: BigShape
   m_TagString: Untagged
@@ -193,6 +194,21 @@ Transform:
   m_Father: {fileID: 7199600185928436913}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &914633341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4210182105927323234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &4280810721955997729
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,7 +489,7 @@ LineRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5061717818581174172}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -484,7 +500,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c0ce63028cc1ed245bad79767ac8f706, type: 2}
+  - {fileID: 2100000, guid: 1da09f27bc2f89f4c93f09ef82f437b4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -576,7 +592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"lineRenderer","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"vertexPositions","value":{"$content":[1,2,3,4,5,6,7,8,9,10,11,12],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+    _json: '{"declarations":{"collection":{"$content":[{"name":"lineRenderer","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sizeMultiplier","value":{"$content":0.01,"$type":"System.Single"},"$version":"A"},{"name":"vertexPositions","value":{"$content":[1,2,3,4,5,6,7,8,9,10,11,12],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 5061717818581174168}
@@ -599,7 +615,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5061717818581174172}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
@@ -647,6 +663,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5061717819252723351}
+  - component: {fileID: 70526396}
   m_Layer: 0
   m_Name: SmallShape
   m_TagString: Untagged
@@ -681,6 +698,21 @@ Transform:
   m_Father: {fileID: 7199600185928436913}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &70526396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5061717819252723352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &5061717819313914462
 GameObject:
   m_ObjectHideFlags: 0
@@ -840,6 +872,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7199600185928436913}
+  - component: {fileID: 4006237932134405095}
+  - component: {fileID: 2535138777568526746}
   m_Layer: 0
   m_Name: Level
   m_TagString: Untagged
@@ -863,6 +897,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4006237932134405095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5798311741496009276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &2535138777568526746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5798311741496009276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: a9d7cc657ad6cd844be8cd0f73547826, type: 2}
 --- !u!1 &6245389598720875786
 GameObject:
   m_ObjectHideFlags: 0
@@ -963,7 +1028,7 @@ LineRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7162164864914353903}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -974,7 +1039,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c0ce63028cc1ed245bad79767ac8f706, type: 2}
+  - {fileID: 2100000, guid: 1da09f27bc2f89f4c93f09ef82f437b4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1066,7 +1131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"lineRenderer","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"vertexPositions","value":{"$content":[1,2,3,4,5,6,7,8,9,10,11,12],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+    _json: '{"declarations":{"collection":{"$content":[{"name":"lineRenderer","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sizeMultiplier","value":{"$content":4.0,"$type":"System.Single"},"$version":"A"},{"name":"vertexPositions","value":{"$content":[1,2,3,4,5,6,7,8,9,10,11,12],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1109923339258027504}
@@ -1089,7 +1154,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7162164864914353903}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
   m_Name: 
