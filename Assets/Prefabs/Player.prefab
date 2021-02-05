@@ -642,6 +642,20 @@ MonoBehaviour:
     _json: '{"declarations":{"collection":{"$content":[{"name":"target","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"isClockwise","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 3580544806999568718}
+--- !u!64 &6325206
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4427547893014413462}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2934717439318261032, guid: 16a5ace666aa9b8458a6183c642fc965, type: 3}
 --- !u!1001 &3580544808301264327
 PrefabInstance:
   m_ObjectHideFlags: 0

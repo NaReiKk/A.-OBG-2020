@@ -12,7 +12,7 @@ TrueTypeFontImporter:
   fontNames:
   - Agency FB
   fallbackFontReferences:
-  - {fileID: 12800000, guid: 729a45472085a0d43832748f76edb598, type: 3}
+  - {instanceID: 0}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
